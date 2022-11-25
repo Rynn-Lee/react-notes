@@ -1,0 +1,41 @@
+body
+    background: #151515
+    color: #fff
+    font:
+        family: monospace
+        size: calc(var(--index)/1.6)
+    margin: 0px
+    padding: 0px
+
+:root
+    --index: calc(1vw + 1vh)
+$theme: orange
+
+.theme
+    color: $theme
+
+.fa
+    font-size: calc(var(--index)/1.8)
+
+.nav-panel
+    left: 0px
+    right: 0px
+    padding: 18px
+    background: #202020
+    position: fixed
+    display: flex
+    justify-content: space-between
+
+.nav-button
+    transition: 200ms
+    cursor: pointer
+    &:hover
+        color: $theme
+
+.content-wrapper
+    position: relative
+    background: #ffffff1300
+    left: 0px
+    right: 0px
+    top: 58px
+    padding: 25px
