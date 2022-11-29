@@ -10,9 +10,14 @@ body
 :root
     --index: calc(1vw + 1vh)
 $theme: orange
+$theme2: coral
 
 .theme
     color: $theme
+
+hr
+    width: 100%
+    border: 1px solid $theme2
 
 .fa
     font-size: calc(var(--index)/1.8)
@@ -34,8 +39,39 @@ $theme: orange
 
 .content-wrapper
     position: relative
+    font-size: calc(var(--index) / 1.3)
     background: #ffffff1300
     left: 0px
     right: 0px
-    top: 58px
+    top: 45px
     padding: 25px
+
+.btn
+    padding: 5px 10px 5px 10px
+    background: #242424
+    margin: 5px
+    color: #fff
+    transition: 200ms
+    border: 1px #252525 solid
+        radius: 5px
+    &:hover
+        background: #ff7300cc
+        border: 1px #ff7300b7 solid
+
+.note
+    display: inline-flex
+    flex-direction: column
+    padding: 15px
+    transition: 200ms
+    margin: 5px
+    background: #252525
+    border: 1px #262626 solid
+        radius: 8px 
+    .note-title
+        font-size: calc(var(--index) / 1.5)
+        color: $theme
+    .note-text, .note-created
+        font-size: calc(var(--index) / 2)
+    &:hover
+        transform: scale(1.1)
+        background: #353535
