@@ -3,7 +3,7 @@ The main purpose is to add and store your notes
 In the nearest future: Editing, Deleting, better design and animations!
 
 # 👓 Design
-![App design](https://github.com/Rynn-Lee/react-notes/blob/main/public/images/Design.png)
+![App design](https://github.com/Rynn-Lee/react-notes/blob/main/public/Images/Design.png)
 
 # ⚡ LIVE DEMO
 Visit ```https://rynn-notes.netlify.app/``` to see how it works!<br>
