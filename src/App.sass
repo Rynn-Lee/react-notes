@@ -22,6 +22,9 @@ hr
 .fa
     font-size: calc(var(--index)/1.8)
 
+div::selection, a::selection, span::selection, body::selection
+    background: #ff880031
+
 .nav-panel
     left: 0px
     right: 0px
@@ -34,6 +37,7 @@ hr
 .nav-button
     transition: 200ms
     cursor: pointer
+    user-select: none
     &:hover
         color: $theme
 
@@ -63,9 +67,9 @@ hr
     flex-direction: column
     padding: 15px
     transition: 200ms
-    margin: 5px
+    margin: 10px
     background: #252525
-    border: 1px #262626 solid
+    border: 1px #26262600 solid
         radius: 8px 
     .note-title
         font-size: calc(var(--index) / 1.5)
@@ -73,5 +77,6 @@ hr
     .note-text, .note-created
         font-size: calc(var(--index) / 2)
     &:hover
-        transform: scale(1.1)
+        transform: scale(1.04)
         background: #353535
+        border: 1px $theme solid
