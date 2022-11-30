@@ -18,7 +18,6 @@ export const dbService = {
         created: item.created,
       }
     })
-    console.log(readyNotes)
     return readyNotes
   },
   addItem(note){
