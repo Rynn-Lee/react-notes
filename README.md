@@ -1,5 +1,5 @@
 # 🖊️ About the project
-The main purpose is to add and store your notes
+The main purpose is to add and store your notes<br>
 In the nearest future: Editing, Deleting, better design and animations!
 
 # 👓 Design
