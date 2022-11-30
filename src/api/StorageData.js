@@ -23,8 +23,5 @@ export const dbService = {
   },
   addItem(note){
     localStorage.setItem('notes', JSON.stringify(note))
-  },
-  removeItem(){
-
   }
 }
